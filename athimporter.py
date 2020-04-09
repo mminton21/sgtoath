@@ -4,11 +4,6 @@ class Athimporter():
     """Combining three reports into a class so that it is easier to execute. Takes multiple columns of data in a row and 
     concatenates to one line separated by '^'."""
 
-    cell_list = []
-    cell_dict = []
-    new_cell_dict = []
-    i = 0
-
     def __init__(self, filename, worksheet_name, cell_start, cell_end, start_row, column_number):
         self.cell_start = cell_start
         self.cell_end = cell_end
